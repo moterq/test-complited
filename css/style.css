@@ -1,0 +1,185 @@
+@import url(./nationality.css);
+@import url(./emailvalidation.css);
+@import url(./birthday.css);
+@import url(./birthmonth.css);
+@import url(./birthyear.css);
+@import url(./radiobuttons.css);
+@import url(./password.css);
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.main {
+    
+    border: black solid 2px;
+    width: 665px;
+    height: 480px;
+    display: flex;
+ background-image: url(../img/bacground.svg);
+ background-position: 100% 100%;
+ background-repeat: no-repeat;
+
+}
+
+.fraction-left{
+    width: 137.2px;
+    height: 480px;
+    border: red solid 2px;
+}
+.fraction-right{
+    width: 527.8px;
+    height: 480px;
+    display: flex;
+flex-direction: column;
+}
+.input {
+    display: flex;
+}
+.input-2{
+    display: flex;
+}
+.input-3{
+    display: flex;
+}
+.input-4{
+    display: flex;
+}
+
+.select-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding-top: 38.52px;
+    padding-left: 20.8px;
+}
+.header p {
+   margin: 0;
+}
+.input-name__text input{
+    width: 234.5px;
+    height: 20px;
+    font-size: 14px;
+
+   
+}
+.input-lastname__text input{
+    width: 234.5px;
+    height: 20px;
+    font-size: 14px;
+
+  
+}
+.input-name{
+    margin-left: 21px;
+}
+.input-name p{
+    font-size: 12px;
+    color: #7C7C7C;
+
+    margin: 0;
+    margin-top: 20px;
+}
+.input-lastname{
+    margin-left: 15.1px;
+    margin-right: 22.5px;
+}
+.input-lastname p{
+    font-size: 12px;
+    color: #7C7C7C;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+
+/****************Animation******************/
+
+.input-name {
+    -webkit-animation-name: input-name;
+    animation-name: input-name;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    }
+    @-webkit-keyframes input-name {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+}
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes input-name {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    /*******/
+
+    .input-lastname {
+        -webkit-animation-name: input-lastname;
+        animation-name: input-lastname;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        animation-delay: 2s;
+        }
+        @-webkit-keyframes input-lastname {
+        0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        -webkit-transform: translate3d(0, 100%, 0);
+        -moz-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        -o-transform: translate3d(0, 100%, 0);
+    }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes input-lastname {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 

@@ -1,0 +1,71 @@
+.input-email__text{
+    outline: none; border: none;
+}
+.input-email p{
+    font-size: 12px;
+    color: #7C7C7C;
+
+    margin: 0;
+    margin-top: 16.38px;
+
+
+}
+
+input{
+    border: none;
+    border-bottom: 0.7px solid  #F2F2F2;
+    background: none;
+    
+}
+.input-email{
+    margin-left: 15.1px;
+    margin-right: 22.5px;
+    
+}.input-email__text input{
+    width: 234.5px;
+    height: 20px;
+    padding-bottom: 1px;
+    font-size: 14px;
+    
+}
+
+/***********************/
+
+.input-email {
+    -webkit-animation-name: input-email;
+    animation-name: input-email;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+    }
+    @-webkit-keyframes input-email {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+}
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes input-email {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+   

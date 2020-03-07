@@ -1,0 +1,172 @@
+* {
+    outline: 0;
+    font-family: sans-serif
+}
+  span.msg,
+  span.choose {
+    color: #555;
+    padding: 0;
+
+    display: inherit;
+    border: none;
+    
+
+  }
+  .birthday {
+    
+    margin-left: 20.8px;
+    
+  }
+  .birthday-flex{
+    margin-top: 5.3px;
+      
+  }
+  /*Styling Selectbox*/
+  .dropdown-day {
+      padding:0;
+      margin:0;
+      width: 56px;
+    
+    height: 22px;
+    display: inline-block;
+    background-color: #fff;
+   
+    /*box-shadow: 0 0 2px rgb(204, 204, 204);*/
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    border-bottom: 0.7px solid  #F2F2F2;
+    
+    text-align: left;
+    
+  }
+
+  .select-day{
+      margin-left: 0px;
+      
+  }
+  .dropdown-day .select-day {
+      cursor: pointer;
+      display: block;
+      padding: 0px;
+
+  }
+  .dropdown-day .select-day > i {
+      font-size: 13px;
+      color: #888;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      float: right;
+      line-height: 20px;
+
+  }
+  .dropdown-day:hover {
+      box-shadow: 0 0 4px rgb(204, 204, 204);
+  }
+  .dropdown-day:active {
+      background-color: #f8f8f8;
+  }
+  .dropdown-day.active:hover,
+  .dropdown-day.active {
+      box-shadow: 0 0 4px rgb(204, 204, 204);
+      border-radius: 5px 5px 0 0;
+      background-color: #f8f8f8;    
+  }
+  .dropdown-day.active .select > i {
+      transform: rotate(-90deg)
+  }
+  .dropdown-day .dropdown-menu-day {
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      left: 0;
+      margin-top: 1px;
+      box-shadow: 0 1px 2px rgb(204, 204, 204);
+      border-radius: 0 1px 5px 5px;
+      overflow: hidden;
+      display: none;
+      max-height: 144px;
+      overflow-y: auto;
+      z-index: 9;
+      -webkit-border-radius: 0 1px 5px 5px;
+      -moz-border-radius: 0 1px 5px 5px;
+      -ms-border-radius: 0 1px 5px 5px;
+      -o-border-radius: 0 1px 5px 5px;
+}
+  .dropdown-day .dropdown-menu-day li {
+      padding: 10px;
+      transition: all .2s ease-in-out;
+      cursor: pointer
+  } 
+  .dropdown-day .dropdown-menu-day {
+      padding: 0;
+      list-style: none;
+      
+  }
+  .dropdown-day .dropdown-menu-day li:hover {
+      background-color: #f2f2f2
+  }
+  .dropdown-day .dropdown-menu-day li:active {
+      background-color: #e2e2e2
+  }
+.birthday-flex{
+    display: flex;
+    flex-direction: row;
+}
+.birthday{
+    padding-top: 16.38px;
+    font-size: 12px;
+    color: #7C7C7C;
+
+    margin: 0;
+    padding-left: 21px;
+}
+.choose-birthday{
+   
+}
+
+.birthday {
+    -webkit-animation-name: birthday;
+    animation-name: birthday;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 5s;
+    }
+    @-webkit-keyframes birthday {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    position: relative;
+    z-index: 20;
+}
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    position: relative;
+    z-index: 20;
+    }
+    }
+    @keyframes birthday {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    position: relative;
+    z-index: 20;
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    position: relative;
+    z-index: 20;
+    }
+    } 

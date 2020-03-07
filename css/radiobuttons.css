@@ -1,0 +1,130 @@
+
+.cntr {
+  margin: auto;
+}
+
+.btn-radio {
+  cursor: pointer;
+  display: inline-block;
+ 
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 14px;
+}
+.btn-radio:not(:first-child) {
+  margin-left: 20px;
+}
+@media screen and (max-width: 480px) {
+  .btn-radio {
+    display: block;
+    float: none;
+  }
+  .btn-radio:not(:first-child) {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+.btn-radio svg {
+  fill: none;
+  vertical-align: middle;
+  width: 14.5px;
+  height: 14.5px;
+  
+}
+.btn-radio svg circle {
+  stroke-width: 1;
+  stroke: #5A61ED;
+
+}
+.btn-radio svg path {
+  stroke: #5A61ED;
+
+}
+.btn-radio svg path.inner {
+  stroke-width: 6;
+  stroke-dasharray: 19;
+  stroke-dashoffset: 19;
+}
+.btn-radio svg path.outer {
+  stroke-width: 1;
+  stroke-dasharray: 57;
+  stroke-dashoffset: 57;
+}
+.btn-radio input {
+  display: none;
+}
+.btn-radio input:checked + svg path {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.btn-radio input:checked + svg path.inner {
+  stroke-dashoffset: 38;
+  transition-delay: 0.2s;
+}
+.btn-radio input:checked + svg path.outer {
+  stroke-dashoffset: 0;
+}
+.btn-radio span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input-radio p{
+  margin: 0;
+ margin-bottom: 7.7px;
+
+}
+.input-radio{
+  padding-top: 16.38px;
+  padding-left: 14.23px;;
+  
+}
+.input-radio p{
+font-size: 12px;
+    color: #7C7C7C;
+    margin-bottom: 2px;
+
+   
+}
+
+/*****************************/
+
+.input-radio{
+  -webkit-animation-name: input-radio;
+  animation-name: input-radio;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 6s;
+  }
+  @-webkit-keyframes input-radio {
+  0% {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  -o-transform: translate3d(0, 100%, 0);
+}
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes input-radio {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
