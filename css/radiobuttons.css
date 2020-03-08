@@ -70,11 +70,16 @@
 .btn-radio span {
   display: inline-block;
   vertical-align: middle;
+ margin-top: 1px;
+
+ 
 }
 
 .input-radio p{
   margin: 0;
  margin-bottom: 7.7px;
+ font-weight: 300;
+
 
 }
 .input-radio{

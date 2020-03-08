@@ -1,15 +1,15 @@
 * {
     outline: 0;
-    font-family: sans-serif
 }
   span.msg,
   span.choose {
-    color: #555;
+    color: #7C7C7C;
     padding: 0;
 
     display: inherit;
     border: none;
     
+    font-weight: 300;
 
   }
   .birthday-year {
@@ -59,16 +59,16 @@
 
   }
   .dropdown-year:hover {
-      box-shadow: 0 0 4px rgb(204, 204, 204);
+      /* box-shadow: 0 0 4px rgb(204, 204, 204); */
   }
   .dropdown-year:active {
-      background-color: #f8f8f8;
+      /* background-color: #f8f8f8; */
   }
   .dropdown-year.active:hover,
   .dropdown-year.active {
-      box-shadow: 0 0 4px rgb(204, 204, 204);
+      /* box-shadow: 0 0 4px rgb(204, 204, 204); */
       border-radius: 5px 5px 0 0;
-      background-color: #f8f8f8;    
+      /* background-color: #f8f8f8;     */
   }
   .dropdown-year.active .select > i {
       transform: rotate(-90deg)
@@ -78,7 +78,7 @@
       background-color: #fff;
       width: 100%;
       left: 0;
-      margin-top: px;
+      margin-top: 6px;
       box-shadow: 0 1px 2px rgb(204, 204, 204);
       border-radius: 0 1px 5px 5px;
       overflow: hidden;
