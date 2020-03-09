@@ -1,108 +1,90 @@
 * {
-    outline: 0;
+	outline: 0;
 }
-  span.msg,
-  span.choose {
-    color: #7C7C7C;
-    padding: 0;
-
-    display: inherit;
-    border: none;
-    
-
-  }
-  .birthday-month {
- 
-    margin-left: 9.8px;
-  }
-  
-  /*Styling Selectbox*/
-  .dropdown-month {
-      padding:0;
-      margin:0;
-      width: 91px;
-    
-    height: 22px;
-    display: inline-block;
-    background-color: #fff;
-   
-    /*box-shadow: 0 0 2px rgb(204, 204, 204);*/
-    transition: all .5s ease;
-    position: relative;
-    font-size: 14px;
-    color: #474747;
-    border-bottom: 0.7px solid  #F2F2F2;
-    
-    text-align: left;
-    
-    
-  }
-
-  .select-month{
-      margin-left: 0px;
-      
-  }
-  .dropdown-month .select-month{
-      cursor: pointer;
-      display: block;
-      padding: 0px;
-
-  }
-  .dropdown-month .select-month > i {
-      font-size: 13px;
-      color: #888;
-      cursor: pointer;
-      transition: all .3s ease-in-out;
-      float: right;
-      line-height: 20px;
-
-  }
-  .dropdown-month:hover {
-      /* box-shadow: 0 0 4px rgb(204, 204, 204); */
-  }
-  .dropdown-month:active {
-      /* background-color: #f8f8f8; */
-  }
-  .dropdown-month.active:hover,
-  .dropdown-month.active {
-      /* box-shadow: 0 0 4px rgb(204, 204, 204); */
-      border-radius: 5px 5px 0 0;
-      /* background-color: #f8f8f8;     */
-  }
-  .dropdown-month.active .select > i {
-      transform: rotate(-90deg)
-  }
-  .dropdown-month .dropdown-menu-month {
-      position: absolute;
-      background-color: #fff;
-      width: 100%;
-      left: 0;
-      margin-top: 6px;
-      box-shadow: 0 1px 2px rgb(204, 204, 204);
-      border-radius: 0 1px 5px 5px;
-      overflow: hidden;
-      display: none;
-      max-height: 144px;
-      overflow-y: auto;
-      z-index: 9;
-      -webkit-border-radius: 0 1px 5px 5px;
-      -moz-border-radius: 0 1px 5px 5px;
-      -ms-border-radius: 0 1px 5px 5px;
-      -o-border-radius: 0 1px 5px 5px;
+span.msg,
+span.choose {
+	color: #7c7c7c;
+	padding: 0;
+	display: inherit;
+	border: none;
 }
-  .dropdown-month .dropdown-menu-month li {
-      padding: 10px;
-      transition: all .2s ease-in-out;
-      cursor: pointer
-  } 
-  .dropdown-month .dropdown-menu-month {
-      padding: 0;
-      list-style: none;
-      
-  }
-  .dropdown-month .dropdown-menu-month li:hover {
-      background-color: #f2f2f2
-  }
-  .dropdown-month .dropdown-menu-month li:active {
-      background-color: #e2e2e2
-  }
+.birthday-month {
+	margin-left: 9.8px;
+}
+
+/*Styling Selectbox*/
+.dropdown-month {
+	padding: 0;
+	margin: 0;
+	width: 91px;
+	height: 22px;
+	display: inline-block;
+	background-color: #fff;
+	/*box-shadow: 0 0 2px rgb(204, 204, 204);*/
+	transition: all 0.5s ease;
+	position: relative;
+	font-size: 14px;
+	color: #474747;
+	border-bottom: 0.7px solid #f2f2f2;
+	text-align: left;
+}
+
+.select-month {
+	margin-left: 0px;
+}
+.dropdown-month .select-month {
+	cursor: pointer;
+	display: block;
+	padding: 0px;
+}
+.dropdown-month .select-month > i {
+	font-size: 13px;
+	color: #888;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	float: right;
+	line-height: 20px;
+}
+
+.dropdown-month.active:hover,
+.dropdown-month.active {
+	/* box-shadow: 0 0 4px rgb(204, 204, 204); */
+	border-radius: 5px 5px 0 0;
+	/* background-color: #f8f8f8;     */
+}
+.dropdown-month.active .select > i {
+	transform: rotate(-90deg);
+}
+.dropdown-month .dropdown-menu-month {
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	left: 0;
+	margin-top: 6px;
+	box-shadow: 0 1px 2px rgb(204, 204, 204);
+	border-radius: 0 1px 5px 5px;
+	overflow: hidden;
+	display: none;
+	max-height: 144px;
+	overflow-y: auto;
+	z-index: 9;
+	-webkit-border-radius: 0 1px 5px 5px;
+	-moz-border-radius: 0 1px 5px 5px;
+	-ms-border-radius: 0 1px 5px 5px;
+	-o-border-radius: 0 1px 5px 5px;
+}
+.dropdown-month .dropdown-menu-month li {
+	padding: 10px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.dropdown-month .dropdown-menu-month {
+	padding: 0;
+	list-style: none;
+}
+.dropdown-month .dropdown-menu-month li:hover {
+	background-color: #f2f2f2;
+}
+.dropdown-month .dropdown-menu-month li:active {
+	background-color: #e2e2e2;
+}

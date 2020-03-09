@@ -15,10 +15,10 @@ $('.dropdown-day .dropdown-menu-day li').click(function () {
 
 
 $('.dropdown-menu-day li').click(function () {
-var input = '<strong>' + $(this).parents('.dropdown-day').find('input').val() + '</strong>',
-  msg = '<span class="msg"> ';
-$('.msg').html(msg  + '</span>');
-}); 
+    var input = '<strong>' + $(this).parents('.dropdown-day').find('input').val() + '</strong>',
+        msg = '<span class="msg"> ';
+    $('.msg').html(msg + '</span>');
+});
 
 /////////////////////////////////////month
 
@@ -39,10 +39,10 @@ $('.dropdown-month .dropdown-menu-month li').click(function () {
 
 
 $('.dropdown-menu-month li').click(function () {
-var input = '<strong>' + $(this).parents('.dropdown-month').find('input').val() + '</strong>',
-  msg = '<span class="msg"> ';
-$('.msg').html(msg  + '</span>');
-}); 
+    var input = '<strong>' + $(this).parents('.dropdown-month').find('input').val() + '</strong>',
+        msg = '<span class="msg"> ';
+    $('.msg').html(msg + '</span>');
+});
 
 //////////////////////////////////year
 
@@ -63,7 +63,7 @@ $('.dropdown-year .dropdown-menu-year li').click(function () {
 
 
 $('.dropdown-menu-year li').click(function () {
-var input = '<strong>' + $(this).parents('.dropdown-year').find('input').val() + '</strong>',
-  msg = '<span class="msg"> ';
-$('.msg').html(msg  + '</span>');
+    var input = '<strong>' + $(this).parents('.dropdown-year').find('input').val() + '</strong>',
+        msg = '<span class="msg"> ';
+    $('.msg').html(msg + '</span>');
 }); 

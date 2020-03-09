@@ -1,3 +1,5 @@
+@import url(./responsive.css);
+@import url(./names.css);
 @import url(./nationality.css);
 @import url(./emailvalidation.css);
 @import url(./birthday.css);
@@ -7,223 +9,36 @@
 @import url(./password.css);
 @import url(./last-buttons.css);
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    font-family: 'Work Sans', sans-serif;
-    
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: "Work Sans", sans-serif;
 }
 .main {
-    
-    border: black solid 2px;
-    width: 665px;
-    height: 480px;
-    display: flex;
- background-image: url(../img/bacground.svg);
- background-position: 100% 100%;
- background-repeat: no-repeat;
- border: rgba(214,214,221, 0.5) solid 0.1px;
-
+	border: black solid 2px;
+	width: 665px;
+	height: 480px;
+	display: flex;
+	background-image: url(../img/bacground.svg);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	border: rgba(214, 214, 221, 0.5) solid 0.1px;
 }
 
-.fraction-left{
-    width: 137.2px;
-    height: 480px;
-    background: #5A61ED;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-family: 'PT Sans', sans-serif !important;
-
-    
-    
-}
-.fraction-left p {
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    font-size: 49px;
-    line-height: 63px;
-
-    color: #fff;
-    white-space: nowrap;
-    margin:0;
-    padding-top: 21.98px;
-    padding-left: 5.7px;
-    writing-mode: vertical-lr;
-}
-
-
-.fraction-right{
-    width: 527.8px;
-    height: 480px;
-    display: flex;
-flex-direction: column;
-}
 .input {
-    display: flex;
+	display: flex;
 }
-.input-2{
-    display: flex;
+.input-2 {
+	display: flex;
 }
-.input-3{
-    display: flex;
+.input-3 {
+	display: flex;
 }
-.input-4{
-    display: flex;
+.input-4 {
+	display: flex;
 }
-
-.select-flex {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-}
-
-.header {
-    padding-top: 38.52px;
-    padding-left: 20.8px;
-}
-.header p {
-   margin: 0;
-}
-.header-text__one {
-    font-weight: 500;
-    font-size: 22px;
-    letter-spacing: -0.46px;
-}
-.header-text__two {
-    font-weight: 300;
-    font-size: 14px;
-}
-.input-name__text input{
-    width: 234.5px;
-    height: 20px;
-    font-size: 14px;
- 
-
-   
-}
-.input-lastname__text input{
-    width: 234.5px;
-    height: 20px;
-    font-size: 14px
-}
-.input-name{
-    margin-left: 21px;
-}
-.input-name p{
-    font-size: 12px;
-    color: #7C7C7C;
-    font-weight: 300;
-
-    margin: 0;
-    margin-top: 20px;
-
-
-
-}
-.input-lastname{
-    margin-left: 15.1px;
-    margin-right: 22.5px;
-}
-.input-lastname p{
-    font-size: 12px;
-    color: #7C7C7C;
-    margin: 0;
-    margin-top: 20px;
-    font-weight: 300;
-
-}
-
-
-/****************Animation******************/
-
-.input-name {
-    -webkit-animation-name: input-name;
-    animation-name: input-name;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-delay: 1s;
-    }
-    @-webkit-keyframes input-name {
-    0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-    -webkit-transform: translate3d(0, 100%, 0);
-    -moz-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
-}
-    100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    }
-    }
-    @keyframes input-name {
-    0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    }
-    100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    }
-    } 
-
-    /*******/
-
-    .input-lastname {
-        -webkit-animation-name: input-lastname;
-        animation-name: input-lastname;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        animation-delay: 2s;
-        }
-        @-webkit-keyframes input-lastname {
-        0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-        -webkit-transform: translate3d(0, 100%, 0);
-        -moz-transform: translate3d(0, 100%, 0);
-        -ms-transform: translate3d(0, 100%, 0);
-        -o-transform: translate3d(0, 100%, 0);
-    }
-        100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-        }
-        }
-        @keyframes input-lastname {
-        0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        }
-        100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-        }
-        } 

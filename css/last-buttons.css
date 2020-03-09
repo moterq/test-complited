@@ -1,42 +1,40 @@
 .last-buttons {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 98.4px;
-    padding-left: 21px;
-    padding-right: 22.5px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 98.4px;
+	padding-left: 21px;
+	padding-right: 22.5px;
 }
-.last-buttons__button{
-    width: 154px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #5A61ED;
-    font-size: 14px;
-    font-family: 'PT Sans', sans-serif !important;
-
+.last-buttons__button {
+	width: 154px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #5a61ed;
+	font-size: 14px;
+	font-family: "PT Sans", sans-serif !important;
 }
-.last-buttons__button p{
-margin: 0;
-
+.last-buttons__button p {
+	margin: 0;
 }
 .last-buttons__button a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .last-buttons__text p {
-margin: 0;
+	margin: 0;
 }
-.last-buttons__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 15px;
+.last-buttons__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 15px;
 }
 .last-buttons__text a {
-    color: #5A61ED;;
+	color: #5a61ed;
 }

@@ -1,48 +1,105 @@
-.input-pass__text input {
+.fraction-left {
+	width: 137.2px;
+	height: 480px;
+	background: #5a61ed;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-family: "PT Sans", sans-serif !important;
+}
+.fraction-left p {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	font-size: 49px;
+	line-height: 63px;
+	color: #fff;
+	white-space: nowrap;
+	margin: 0;
+	padding-top: 21.98px;
+	padding-left: 5.7px;
+	writing-mode: vertical-lr;
+}
+
+.fraction-right {
+	width: 527.8px;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+}
+
+.select-flex {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	padding-top: 38.52px;
+	padding-left: 20.8px;
+}
+.header p {
+	margin: 0;
+}
+.header-text__one {
+	font-weight: 500;
+	font-size: 22px;
+	letter-spacing: -0.46px;
+}
+.header-text__two {
+	font-weight: 300;
+	font-size: 14px;
+}
+.input-name__text input {
 	width: 234.5px;
 	height: 20px;
 	font-size: 14px;
 }
-.input-repass__text input {
+.input-lastname__text input {
 	width: 234.5px;
 	height: 20px;
 	font-size: 14px;
 }
-.input-pass {
+.input-name {
 	margin-left: 21px;
 }
-.input-pass p {
+.input-name p {
 	font-size: 12px;
 	color: #7c7c7c;
 	font-weight: 300;
-
 	margin: 0;
-	margin-top: 4px;
+	margin-top: 20px;
 }
-.input-repass {
+.input-lastname {
 	margin-left: 15.1px;
 	margin-right: 22.5px;
 }
-.input-repass p {
+.input-lastname p {
 	font-size: 12px;
 	color: #7c7c7c;
 	margin: 0;
-	margin-top: 4px;
+	margin-top: 20px;
 	font-weight: 300;
 }
 
 /****************Animation******************/
 
-.input-pass {
-	-webkit-animation-name: input-pass;
-	animation-name: input-pass;
+.input-name {
+	-webkit-animation-name: input-name;
+	animation-name: input-name;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
-	animation-delay: 7s;
+	animation-delay: 1s;
 }
-@-webkit-keyframes input-pass {
+@-webkit-keyframes input-name {
 	0% {
 		opacity: 0;
 		transform: translate3d(0, 100%, 0);
@@ -57,7 +114,7 @@
 		transform: none;
 	}
 }
-@keyframes input-pass {
+@keyframes input-name {
 	0% {
 		opacity: 0;
 		-webkit-transform: translate3d(0, 100%, 0);
@@ -72,16 +129,16 @@
 
 /*******/
 
-.input-repass {
-	-webkit-animation-name: input-repass;
-	animation-name: input-repass;
+.input-lastname {
+	-webkit-animation-name: input-lastname;
+	animation-name: input-lastname;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
-	animation-delay: 8s;
+	animation-delay: 2s;
 }
-@-webkit-keyframes input-repass {
+@-webkit-keyframes input-lastname {
 	0% {
 		opacity: 0;
 		transform: translate3d(0, 100%, 0);
@@ -96,7 +153,7 @@
 		transform: none;
 	}
 }
-@keyframes input-repass {
+@keyframes input-lastname {
 	0% {
 		opacity: 0;
 		-webkit-transform: translate3d(0, 100%, 0);
