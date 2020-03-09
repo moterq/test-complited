@@ -17,6 +17,7 @@
 }
 .last-buttons__button p {
 	margin: 0;
+	text-decoration: none;
 }
 .last-buttons__button a {
 	text-decoration: none;
@@ -37,4 +38,8 @@
 }
 .last-buttons__text a {
 	color: #5a61ed;
+}
+.text-decor {
+	text-decoration: none;
+	color: #fff;
 }
